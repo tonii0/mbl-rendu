@@ -1,0 +1,154 @@
+@media only screen and (max-width: 450px) {
+  .home-page {
+    height: 35vh;
+    width: 100%;
+  }
+
+  .project-card {
+    height: 20vh;
+    width: 100%;
+  }
+
+  .projects-page {
+    height: 108vh;
+    width: 100%;
+  }
+
+  .scroll-mouse-container {
+    height: 10vh;
+  }
+
+  .scrolldown {
+    align-items: center;
+    height: 23px;
+    width: 15px;
+  }
+
+  .scrolldown:hover {
+    transform: translate(0, 0);
+  }
+
+  .line-scroll_down {
+    width: 2px;
+    height: 18px;
+  }
+
+  .home-about_me h1 {
+    line-height: 15px;
+    font-size: 16px;
+  }
+  .home-about_me h1 span {
+    font-size: 30px;
+  }
+
+  .home-center-container {
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+  }
+
+  .home-bottom-container {
+    height: 15vh;
+    width: 100%;
+  }
+
+  .header-nav ul {
+    display: none;
+  }
+
+  .responsive-menu {
+    display: block;
+  }
+  .responsive-menu h1 {
+    color: #222;
+    font-family: elgoc;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .parcours_scolaire {
+    width: 100%;
+  }
+  .parcours_scolaire p {
+    font-family: elgoc;
+    font-size: 3.3vw;
+  }
+  .parcours_scolaire p span {
+    color: #b38686;
+  }
+
+  .parc-title {
+    width: 40%;
+  }
+  .parc-title h1 {
+    font-size: 4.5vw;
+  }
+
+  .parcours-bottom {
+    background: url("../assets/bg-mobile.svg") no-repeat center;
+  }
+
+  .parc-left {
+    height: 50%;
+    width: 30%;
+  }
+
+  .parc-right {
+    height: 50%;
+    width: 30%;
+  }
+
+  .parc-medium {
+    height: 50%;
+    width: 6%;
+  }
+
+  .parcours-line {
+    width: 5px;
+    height: 100%;
+  }
+
+  .circle_line_child {
+    width: 12.5px;
+    height: 12.5px;
+  }
+
+  .circle_line_child:nth-child(1) {
+    position: absolute;
+    margin-top: 19px;
+  }
+
+  .circle_line_child:nth-child(2) {
+    position: absolute;
+    margin-top: 148px;
+  }
+
+  .circle_line_child:nth-child(3) {
+    position: absolute;
+    margin-top: 290px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .footer-area {
+    padding-left: 10px;
+  }
+
+  .main {
+    width: 320px;
+  }
+
+  .footer-wave-box {
+    display: none;
+  }
+
+  .single-footer:first-child, .single-footer {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .single-footer h4 {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=responsive.css.map */
